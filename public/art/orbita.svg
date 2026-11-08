@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <radialGradient id="bg"><stop stop-color="#455328"/><stop offset="1" stop-color="#111410"/></radialGradient>
+    <linearGradient id="metal" x2=".85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#f1f3e5"/><stop offset=".22" stop-color="#353c32"/><stop offset=".47" stop-color="#a4ae98"/><stop offset=".74" stop-color="#1d241a"/><stop offset="1" stop-color="#d4ed80"/>
+    </linearGradient>
+    <path id="ribbon" d="M397 84C519 55 617 161 566 266C545 308 505 329 461 319C518 281 523 220 491 184C458 145 410 146 374 167C367 135 377 105 397 84Z"/>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h800v520H0z"/>
+  <ellipse cx="400" cy="427" rx="227" ry="37" fill="#0a0d08" opacity=".7"/>
+  <path d="m244 400 47-21h218l47 21v29H244z" fill="#181e16"/>
+  <g fill="url(#metal)" stroke="#d2d7bd" stroke-width="1.1">
+    <use href="#ribbon"/><use href="#ribbon" transform="rotate(72 400 224)"/><use href="#ribbon" transform="rotate(144 400 224)"/><use href="#ribbon" transform="rotate(216 400 224)"/><use href="#ribbon" transform="rotate(288 400 224)"/>
+  </g>
+  <circle cx="400" cy="224" r="54" fill="none" stroke="#c8f671" opacity=".6" stroke-width="2"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#171315"/><stop offset="1" stop-color="#6e3e28"/></linearGradient>
+    <radialGradient id="sphere" cx=".31" cy=".25" r=".76"><stop stop-color="#ffbc67"/><stop offset=".55" stop-color="#c05e2f"/><stop offset="1" stop-color="#57291e"/></radialGradient>
+    <clipPath id="clip"><circle cx="404" cy="232" r="135"/></clipPath>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h800v520H0z"/>
+  <path d="M0 427c180-65 294-9 440-25 142-15 245-63 360-40v158H0z" fill="#8d5236"/>
+  <path d="M0 468c180-31 295-14 462-37 152-21 217-20 338-9v98H0z" fill="#492b26"/>
+  <ellipse cx="420" cy="407" rx="143" ry="22" fill="#211417" opacity=".68"/>
+  <circle cx="404" cy="232" r="135" fill="url(#sphere)"/>
+  <g clip-path="url(#clip)" fill="none" stroke="#5e2d27" stroke-opacity=".55" stroke-width="6">
+    <path d="M250 131c120 34 172 100 307 86M240 169c113 4 200 101 314 81M240 211c119-5 186 104 313 87M244 247c112 2 192 94 301 81M251 286c109-3 157 89 265 76"/>
+  </g>
+</svg>
